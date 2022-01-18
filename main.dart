@@ -61,7 +61,7 @@ class _CryptoHomeState extends State<CryptoHome> {
       // body of the container
       body:  SafeArea(
         child: Padding(
-          padding: const EdgeInsets.all(10.0),
+          padding: const EdgeInsets.all(6.0),
           child: Column(
             children: [
               _widgetOption.elementAt(_selectedIndex),
