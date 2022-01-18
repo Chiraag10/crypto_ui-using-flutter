@@ -60,10 +60,13 @@ class _CryptoHomeState extends State<CryptoHome> {
     return Scaffold(
       // body of the container
       body:  SafeArea(
-        child: Column(
-          children: [
-            _widgetOption.elementAt(_selectedIndex),
-          ],
+        child: Padding(
+          padding: const EdgeInsets.all(10.0),
+          child: Column(
+            children: [
+              _widgetOption.elementAt(_selectedIndex),
+            ],
+          ),
         ),
       ),
           
